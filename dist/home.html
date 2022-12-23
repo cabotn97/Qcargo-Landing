@@ -10,15 +10,8 @@
         <script type="text/javascript">
           emailjs.init('zksCJi1-M64NEszHr')
         </script>
-        <script src="https://www.google.com/recaptcha/enterprise.js?render=6Leev3UjAAAAAE8DCAL0mz_Oe_X6xW89qE9JoKwY"></script>
-        <script>
-        grecaptcha.enterprise.ready(function() {
-            grecaptcha.enterprise.execute('6Leev3UjAAAAAE8DCAL0mz_Oe_X6xW89qE9JoKwY', {action: 'login'}).then(function(token) {
-            });
-        });
-        </script>
-        </script>
         <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     </head>
     <body>
         <header class="bg-white" id="top">
@@ -62,7 +55,7 @@
               </div>
             </div>
             <!-- Overlapping cards -->
-            <section class="relative z-10 mx-auto -mt-32 max-w-5xl px-4 pb-16 sm:px-6 lg:px-0" aria-labelledby="contact-heading">
+            <section class="relative z-10 mx-auto -mt-32 max-w-5xl px-4 pb-8 sm:px-6 lg:px-0" aria-labelledby="contact-heading">
               <h2 class="sr-only" id="contact-heading">Contact us</h2>
               <div class="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
                 <div class="flex flex-col rounded-2xl bg-white shadow-xl">
@@ -134,7 +127,7 @@
               <div class="bg-white h-80 shadow-lg rounded-2xl mx-4 lg:mx-0">
                 <img class="h-52 w-full object-cover" src="https://images.unsplash.com/photo-1519003722824-194d4455a60c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2075&q=80">
                 <div class="text-center font-bold text-sm pt-4">LAND FREIGHT</div>
-                <div class="text-center text-xs px-8 pt-4">When the main option is to transport your cargo by land, the best option in costs.</div>
+                <div class="text-center text-xs px-8 pt-2">When the main option is to transport your cargo by land, the best option in costs.</div>
               </div>
             </div>
           </div>
@@ -186,7 +179,8 @@
                                               <textarea id="message" name="message" required aria-describedby="how-can-we-help-description" rows="4" class="rounded-md block w-full border-gray-300 shadow-sm focus:border-clrAzul focus:ring-clrAzul sm:text-sm"></textarea>
                                           </div>
                                       </div>
-                                      <div class="text-right sm:col-span-2">
+                                      <div class="g-recaptcha" data-sitekey="6LegDKAjAAAAAJbNSkSVa_98FukJatGwrKveMo5i" style="margin-bottom:20px"></div>
+                                      <div class="text-right sm:col-span-2 md:-mt-24 md:pt-2">
                                           <button type="submit" id="button" value="Send Email" class="inline-flex justify-center border border-transparent rounded-lg bg-clrAzul py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-clrAzul focus:outline-none focus:ring-2 ">Submit</button>
                                       </div>
                                   </form>
