@@ -42,6 +42,5 @@ document.getElementById('form')
                 form.reset();
             }); 
         }
-
         
 });
