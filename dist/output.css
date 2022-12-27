@@ -1189,6 +1189,14 @@ select {
   padding-top: 0px;
 }
 
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
+.pl-10 {
+  padding-left: 2.5rem;
+}
+
 .text-left {
   text-align: left;
 }
