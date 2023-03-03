@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'clrAzul': '#0d2c3f',
-        'clrCeleste': '#668781',
-        'clrGrisClaro': '#dde0d5',
-        'clrGrisOscuro': '#dde0d5',
+        'clrAzul': '#182c4c',
+        'clrCeleste': '#3a648c',
+        'clrGrisClaro': '#EAEAEA',
+        'clrGrisOscuro': '#c4c4bc',
       },
       maxWidth: {
         'navPasos': '850px',
